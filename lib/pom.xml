@@ -25,11 +25,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>team-a-addon</artifactId>
-        <groupId>org.exoplatform.addons.codefest.team_a</groupId>
+        <artifactId>team-b-addon</artifactId>
+        <groupId>org.exoplatform.addons.codefest.team_b</groupId>
         <version>1.0.x-SNAPSHOT</version>
     </parent>
-    <artifactId>team-a-addon-lib</artifactId>
+    <artifactId>team-b-addon-lib</artifactId>
     <packaging>jar</packaging>
     <name>Codefest 2015 - Team B Addon - Library</name>
     <description>Codefest 2015 - Team B Addon - Extension Library providing all services</description>
