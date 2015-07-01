@@ -1,15 +1,15 @@
 Codefest 2015 team B repository
 ===========
 
-# The team A
+# The team B
 
 
 TEAM MEMBER | EXO TEAM
 ------------ | -------------
-Nguyen The Tuyen | Portal
-Nguyen Hai Toan | PLF/ECMS
-Nguyen Truong Giang | WD/UI
-Vu Huyen Trang | GSS
+Le Thi Minh Ha | BD
+Nguyen Dinh Van | GSS
+Tran Viet Ha | FQA
+Tran Minh Ngoc | GSS
 
 # How to build
 
