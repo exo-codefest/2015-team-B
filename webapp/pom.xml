@@ -40,15 +40,17 @@
 
   <dependencies>
     <!-- Application dependencies-->
-    <dependency>
+    <!--  dependency>
       <groupId>org.juzu</groupId>
       <artifactId>juzu-core</artifactId>
-      <version>1.0.0-cr1</version>
+      <scope>provided</scope>
     </dependency>
+    -->
     <dependency>
       <groupId>org.juzu</groupId>
       <artifactId>juzu-plugins-servlet</artifactId>
-      <version>1.0.0-cr1</version>
+      <version>1.0.0</version>
+      <scope>provided</scope>
     </dependency>
 
     <!-- Groovy is shipped with GateIn -->
@@ -82,7 +84,7 @@
     </dependency>
 
     <!-- Junit for testing -->
-    <dependency>
+    <!-- dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.10</version>
@@ -91,15 +93,15 @@
     <dependency>
       <groupId>org.juzu</groupId>
       <artifactId>juzu-depchain-arquillian</artifactId>
-      <version>1.0.0-cr1</version>
+      <version>1.0.0</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.juzu</groupId>
       <artifactId>juzu-depchain-arquillian-tomcat7</artifactId>
-      <version>1.0.0-cr1</version>
+      <version>1.0.0</version>
       <scope>test</scope>
-    </dependency>
+    </dependency-->
    </dependencies>
   
 </project>
