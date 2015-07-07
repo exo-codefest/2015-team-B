@@ -1,3 +1,3 @@
 <a href = "@{Controller.addNew()}">Add new</a> | <a href = "@{Controller.result()}"> Result </a> | <a href = "@{Controller.viewAllComments()}"> All Comment</a>
 <br/>
-vote!
+Add New !
