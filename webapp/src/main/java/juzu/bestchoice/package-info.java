@@ -16,4 +16,13 @@
 
 @juzu.Application
 @juzu.plugin.servlet.Servlet(value = "/")
+
+@Less({@Stylesheet(value = "styles/choices.less")})
+@Assets("*")
 package juzu.bestchoice;
+
+import juzu.plugin.asset.Assets;
+import juzu.plugin.asset.Script;
+import juzu.plugin.asset.Scripts;
+import juzu.plugin.asset.Stylesheet;
+import juzu.plugin.less4j.Less;
