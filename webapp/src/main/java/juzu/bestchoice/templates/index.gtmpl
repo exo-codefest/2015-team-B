@@ -1,3 +1,72 @@
-<a href = "@{Controller.addNew()}">Add new</a> | <a href = "@{Controller.result()}"> Result </a> | <a href = "@{Controller.viewAllComments()}"> All Comment</a>
-<br/>
-vote!
+<div id="main_frame">
+  <div id="vote_icon"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/vote_zpsziuz4697.png"/></div>
+  <div id="vote_header">Vote your choice</div>
+  <div id="button_navigation">
+    <span class="btn_addNew"><a href="@{Controller.addNew()}"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/add_zpsrc88zuck.png"/></a></span> 
+    <span class="btn_viewResult"><a href="@{Controller.result()}"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/result2_zps1lrpis9o.png"/> Result</a></span> 
+    <span class="btn_viewResult"><a href="@{Controller.viewAllComments()}"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/viewallcomments_zps8gofnoch.png"/> All comments</a></span>     
+  </div>
+  
+  <div id="vote_description">
+    <div id="topic_icon"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/icon_zpsurts3agt.jpg"/></div>
+    <div id="topic_content">
+      <div id="topic">Lunch</div>
+      <hr/>
+      <div id="topic_description"><p>Gia Ngu Restaurant</p> <b>Address:</b> 24 Thai Ha</div>
+      <div id="topic_deadline"><b>Dead line:</b> 10:00 AM, July 8th, 2015</div>
+    </div>
+  </div>
+
+  <div id="vote_list">
+    <table>
+      <tr>
+        <th></th>
+        <th class="option">11:00 AM</th>
+        <th class="option">11:30 AM</th>
+        <th class="option">12:30 PM</th>
+      </tr>
+      <tr class="view_only">
+        <td class="user">
+          <div class="username"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/john_zpslfibn8cp.png"/>John </div> <hr/>
+          <div class="like"><a href="#"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/like_zps29xcuyzf.png"/>Like</a> </div>
+        </td>
+        <td class="choosen"></td>
+        <td class="not_choosen"></td>
+        <td class="not_choosen"></td>
+      </tr>
+      <tr class="view_only">
+        <td class="user">
+          <div class="username"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/jack_zpsfmbrdxbq.png"/>Jack </div> <hr/>
+          <div class="like"><a href="#"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/like_zps29xcuyzf.png"/>Like</a> | 1</div>
+          <div class="comment">1 <a href="#"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/comment_zpsskc3vhdr.png"/></a></div>
+        </td>
+        <td class="not_choosen"></td>
+        <td class="not_choosen"></td>
+        <td class="choosen"></td>
+      </tr>
+      <tr class="view_only">
+        <td class="user">
+          <div class="username"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/mary_zpsgdn2tmwm.png"/>Mary </div> <hr/>
+          <div class="like"><a href="#"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/like_zps29xcuyzf.png"/>Like</a> </div>
+        </td>
+        <td class="choosen"></td>
+        <td class="not_choosen"></td>
+        <td class="not_choosen"></td>
+      </tr>
+      <tr class="to_choose">
+        <td class="user">
+          <div class="username"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/jame_zps4xejpi19.png"/>James </div> <hr/>
+          <div class="like"><a href="#"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/like_zps29xcuyzf.png"/>Like</a> </div>
+          <div class="comment"><a href="#"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/comment_zpsskc3vhdr.png"/></a></div>
+        </td>
+        <td><input type="checkbox" name="option1" value="opt1"></td>
+        <td><input type="checkbox" name="option2" value="opt2"></td>
+        <td><input type="checkbox" name="option3" value="opt3"></td>
+      </tr>
+      <tr class="button">
+        <td></td>
+        <td colspan="3"><input type="button" value="Save" class="btnSave"><input type="button" value="Cancel" class="btnCancel"></td>     
+      </tr>
+    </table>
+  </div>
+</div>

@@ -1,9 +1,221 @@
-// Variables
-//====================
-@textColor: red;
- 
-// Common Style
-//====================
-body {
-  color: @textColor;
+@images-path: "/assets";
+
+#main_frame{
+  width: 90%;
+  margin: 20px;
 }
+
+/*
+========================= 
+    Vote header
+=========================
+*/
+
+#vote_icon{
+  float: left;
+}
+
+#vote_header{
+  top: 10px;
+  margin-bottom: 5px;
+  padding: 5px; 
+  font-weight: bold;
+  background-color: #EBEBEB;
+  line-height: 30px;
+  margin-left: 30px;
+}
+
+
+/*
+========================= 
+    Vote navigation
+    Add - Result - View Comment
+=========================
+*/
+
+#button_navigation{
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+#button_navigation a{
+  color: #979797;
+  text-decoration: none;
+  font-size: 11px;
+  vertical-align: middle;
+  line-height: 20px;
+}
+
+.btn_addNew, .btn_viewResult, .btn_viewResult{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+
+/*
+========================= 
+    Vote description
+=========================
+*/
+
+#vote_description{
+  width: 100%;
+  height: 120px; 
+  background-color: #5473A9;
+  color: #F0F0F5;
+  margin-bottom: 10px;
+  font-size: 11px;
+
+}
+
+#topic_icon{
+  width: 200px;
+  float: left;
+  padding: 10px 5px;
+}
+
+#topic_content{ 
+  width: 400px; 
+  float: left;
+  padding: 5px;
+}
+
+#topic{
+  font-weight: bold;
+}
+
+hr{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  height: 1px;
+  background-color: #F0F0F5;
+}
+
+#topic_description p {
+  font-weight: bold;
+  padding: 5px 0px;
+  font-size: 13px;
+}
+
+
+/*
+========================= 
+    Vote table
+=========================
+*/
+#vote_list table{
+  width: 100%;
+}
+
+#vote_list table tr{
+  border: solid 1px #fff;
+}
+
+#vote_list a{
+  color: #F0F0F5;
+  text-decoration: none;
+}
+
+#vote_list .option{
+  background-color: #5473A9;
+  color: #F0F0F5;
+  font-size: 11px;
+}
+
+#vote_list .user{
+  background-color: #333333;
+  color: #F0F0F5;
+  font-size: 12px;
+  padding: 5px;
+  width: 220px;
+}
+
+#vote_list .user hr{
+  background-color: #5c5c5c;
+}
+
+.like{
+  float: left;
+}
+
+.like img{
+  width: 10px;
+  height: 10px;
+  padding-right: 5px;
+}
+
+.comment{
+  float: right;
+}
+
+#vote_list .not_choosen{
+  background-color: #C0D4F5;
+}
+
+#vote_list .choosen{    
+  background-color: #D8F7D5;
+  background-image: url("http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/ticked_zpsy9dbzccr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.to_choose{
+  background-color: #F0F0F0;
+  text-align: center; /* center checkbox horizontally */
+  vertical-align: middle; /* center checkbox vertically */
+}
+
+.to_choose .user{
+  text-align: left;
+}
+
+.username{
+  line-height: 25px;
+  vertical-align: middle;
+}
+.username img{
+  width: 30px;
+  height: 30px;
+  padding-right: 5px;
+}
+
+/* === END Vote table === */
+
+/*
+========================= 
+    Save - Cancel button 
+=========================
+*/
+.button{
+  text-align: right; /* center checkbox horizontally */
+  vertical-align: middle; /* center checkbox vertically */
+}
+
+.btnSave{
+  padding: 5px;
+  background-color: #5473A9;
+  color: #F0F0F5;
+  margin: 10px;
+  line-height: 20px;
+  border: 1px solid #5473A9;
+  line-height: 20px;
+}
+
+.btnCancel{
+  padding: 5px;
+  border: 1px solid #EBEBEB;
+  line-height: 20px;
+  margin: 10px;
+  background-color: #EBEBEB;  
+}
+
+
+
+
+
+
