@@ -1,3 +1,48 @@
-<a href = "@{Controller.addNew()}">Add new</a> | <a href = "@{Controller.result()}"> Result </a> | <a href = "@{Controller.viewAllComments()}"> All Comment</a>
-<br/>
-Add New !
+<div id="main_frame">
+  <div id="vote_icon"><img src="./imgs/vote.png"/></div>
+  <div id="vote_header">Crete new choice for your team</div>
+  <div id="button_navigation">     
+    <span class="btn_viewResult"><a href="@{Controller.result()}"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/result2_zps1lrpis9o.png"/> Result</a></span> 
+    <span class="btn_addNew"><a href="@{Controller.index()"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/vote2_zps3neiid8n.png"/> Vote your choice</a></span>
+    <span class="btn_viewResult"><a href="@{Controller.index()"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/back_zpsjutwubym.png"/> Back</a></span>     
+  </div>
+
+  <div id="add_new_content">
+    <form>
+      <table>
+        <tr>
+          <td>Title:</td>
+          <td><input type="text" name="title"></td>
+        </tr>
+        <tr>
+          <td>Location:</td>
+          <td><input type="text" name="location"></td>
+        </tr>
+        <tr>
+          <td>Deadline:</td>
+          <td><input type="text" name="deadline"></td>
+        </tr>
+        <tr>
+          <td>Image:</td>
+          <td><input type="text" name="image"></td>
+        </tr>
+        <tr>
+          <td>Option 1:</td>
+          <td><input type="text" name="opt1"></td>
+        </tr>
+        <tr>
+          <td>Option 2:</td>
+          <td><input type="text" name="opt2"></td>
+        </tr>
+        <tr>
+          <td>Option 3:</td>
+          <td><input type="text" name="opt3"></td>
+        </tr>
+      </table>
+      
+      <a href="@{Controller.index()"><input type="button" value="Cancel" class="btnCancel"></a>
+      <a href="@{Controller.index()"><input type="button" value="Create" class="btnSave"></a>
+    </form>
+    
+  </div>
+</div>
