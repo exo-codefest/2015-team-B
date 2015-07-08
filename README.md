@@ -16,3 +16,6 @@ Tran Minh Ngoc | GSS
 	git clone git@github.com:exo-codefest/2015-team-B.git
 	cd 2015-team-B
 	mvn clean install
+	
+For more information, please read in readme.pdf. 
+Thank you!
