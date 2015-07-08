@@ -1,8 +1,5 @@
-<a href = "@{Controller.addNew()}">Add new</a> | <a href = "@{Controller.result()}"> Result </a> | <a href = "@{Controller.viewAllComments()}"> All Comment</a>
-
-
 <div id="main_frame">
-  <div id="vote_icon"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/icon2_zpskjgn5d3v.jpg"/></div>
+  <div id="vote_icon"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/result_zpsb46fi2vf.png"/></div>
   <div id="vote_header">Result</div>
   
   <div id="button_navigation">

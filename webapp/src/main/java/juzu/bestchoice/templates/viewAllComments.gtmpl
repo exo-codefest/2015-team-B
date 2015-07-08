@@ -1,3 +1,42 @@
-<a href = "@{Controller.addNew()}">Add new</a> | <a href = "@{Controller.result()}"> Result </a> | <a href = "@{Controller.viewAllComments()}"> All Comment</a>
-<br/>
-All Comment!
+<div id="main_frame">
+  <div id="vote_icon"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/vote_zpsziuz4697.png"/></div>
+  <div id="vote_header">All Comments</div>
+  <div id="button_navigation">
+    <span class="btn_addNew"><a href="@{Controller.addNew()}"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/add_zpsrc88zuck.png"/></a></span> 
+    <span class="btn_viewResult"><a href="@{Controller.result()}"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/result2_zps1lrpis9o.png"/> Result</a></span> 
+    <span class="btn_addNew"><a href="@{Controller.index()}"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/vote2_zps3neiid8n.png"/> Vote your choice</a></span>
+    <span class="btn_viewResult"><a href="@{Controller.index()}"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/back_zpsjutwubym.png"/> Back</a></span>   
+  </div>
+  
+  <div id="all_comments_content">
+    <div class="comment_title">Comments (8)</div>
+    <table>
+      <tr class="comment">
+        <td class="cmt_avatar"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/jack_zpsfmbrdxbq.png"/></td>
+        <td class="cmt_user">
+          <b>Jack</b> - About 1 hour ago <br/>
+          I like it! <br/>
+          <a href="#"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/like2_zpsnvtyey88.png"/>Like</a>
+        </td>
+      </tr>
+      <tr class="comment">
+        <td class="cmt_avatar"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/john_zpslfibn8cp.png"/></td>
+        <td class="cmt_user">
+          <b>John</b> - About 2 hours ago <br/>
+          I prefer other option. <br/>
+          <a href="#"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/like2_zpsnvtyey88.png"/>Like</a>
+        </td>
+      </tr>      
+      <tr class="comment">
+        <td class="cmt_avatar"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/mary_zpsgdn2tmwm.png"/></td>
+        <td class="cmt_user">
+          <b>Mary Michu</b> - About 3 hours ago <br/>
+          I don't like it! <br/>
+          <a href="#"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/like2_zpsnvtyey88.png"/>Like</a>
+        </td>
+      </tr>  
+    </table>     
+     
+    <div class="see_more"><a href="#">See more comments</a></div>
+  </div>
+</div>
