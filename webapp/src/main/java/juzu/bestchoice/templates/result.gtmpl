@@ -1,3 +1,46 @@
 <a href = "@{Controller.addNew()}">Add new</a> | <a href = "@{Controller.result()}"> Result </a> | <a href = "@{Controller.viewAllComments()}"> All Comment</a>
-<br/>
-Result!
+
+
+<div id="main_frame">
+  <div id="vote_icon"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/icon2_zpskjgn5d3v.jpg"/></div>
+  <div id="vote_header">Result</div>
+  
+  <div id="button_navigation">
+    <span class="btn_addNew"><a href="@{Controller.addNew()}"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/add_zpsrc88zuck.png"/></a></span> 
+    <span class="btn_addNew"><a href="@{Controller.index()}"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/vote2_zps3neiid8n.png"/> Vote your choice</a></span>
+    <span class="btn_viewResult"><a href="@{Controller.viewAllComments()}"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/viewallcomments_zps8gofnoch.png"/> All comments</a></span>     
+  </div>
+  
+  <div id="vote_description">
+    <div id="topic_icon"><img src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/icon2_zpskjgn5d3v.jpg"/></div>
+    <div id="topic_content">
+      <div id="topic">Lunch</div>
+      <hr/>
+      <div id="topic_description"><p>Gia Ngu Restaurant</p> <b>Address:</b> 24 Thai Ha</div>
+      <div id="topic_deadline"><b>Dead line:</b> 10:00 AM, July 8th, 2015</div>
+    </div>
+  </div>
+
+  
+  <div id="result_content">
+    <table>
+      <tr>
+        <td class="option_name">11:00 AM</td>
+        <td class="option_number_win">2 <img class="best_choice_icon" src="http://i1027.photobucket.com/albums/y340/tmngssexo/codefest2015/bestchoice_zpsnxwdgfln.png"/></td>
+      </tr>
+      <tr>
+        <td class="option_name">11:30 AM</td>
+        <td class="option_number">0</td>
+      </tr>
+      <tr>
+        <td class="option_name">12:30 PM</td>
+        <td class="option_number">1</td>
+      </tr>
+    </table>
+    <div class="result_btn_list">
+    <a href="@{Controller.index()}"><input type="button" value="Back" class="btnCancel"></a>
+    <a href="#"><input type="button" value="Send invitation" class="btnSave"></a>
+    <a href="#"><input type="button" value="Import to Calendar" class="btnImport"></a>
+  </div>
+  </div>
+</div>
